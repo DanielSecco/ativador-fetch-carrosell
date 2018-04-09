@@ -1,10 +1,13 @@
 
-var dbPromise = idb.open('posts-store', 1, function (db) {
+var dbPromise = idb.open('posts-store', 4, function (db) {
+    if (!db.objectStoreNames.contains('trees')) {
+    db.createObjectStore('trees', {keyPath: 'cod_tree'});
+  }
   if (!db.objectStoreNames.contains('posts')) {
     db.createObjectStore('posts', {keyPath: 'id'});
   }
   if (!db.objectStoreNames.contains('sync-posts')) {
-    db.createObjectStore('sync-posts', {keyPath: 'id'});
+    db.createObjectStore('sync-posts', {keyPath: 'id',autoIncrement: true});
   }
 });
 

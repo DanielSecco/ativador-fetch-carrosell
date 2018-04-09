@@ -10,6 +10,7 @@
     </div>
       <div>{{decodeResult}}
     </div>
+      
   </div>
 </template>
 
@@ -210,6 +211,7 @@ export default {
      * waits for it to load. The promise returned here is the payload for the
      * `init` event. Any error here leads to this promises rejection.
      */
+      
     async startCamera () {
       // check if browser is support first
       if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {

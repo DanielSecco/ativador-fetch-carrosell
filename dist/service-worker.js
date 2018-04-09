@@ -79,11 +79,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f5069c3a3c165ad2d6e1f3647affea37"
+    "revision": "6b74e2bef95aff2c29f174e518baf084"
   },
   {
     "url": "manifest.json",
     "revision": "a7da8acb465422697553de7de8528c6a"
+  },
+  {
+    "url": "offline.html",
+    "revision": "6b74e2bef95aff2c29f174e518baf084"
   },
   {
     "url": "src/js/fetch.js",
@@ -115,11 +119,27 @@ self.__precacheManifest = [
   },
   {
     "url": "src/js/utility.js",
-    "revision": "4853a87685922cdf08b8bc5ed3f6f85e"
+    "revision": "41f2794d031711cbc5010ba50e6e5e63"
   },
   {
     "url": "src/js/utility.min.js",
     "revision": "cb94c3608146875801c35b8e4ef2d36a"
+  },
+  {
+    "url": "webmidia/fullscreen.js",
+    "revision": "269baa383ea4a2206294890e99385998"
+  },
+  {
+    "url": "webmidia/isMobile.min.js",
+    "revision": "c1c533a6dd578790dabbda84e97d7277"
+  },
+  {
+    "url": "webmidia/main.js",
+    "revision": "23e4037def47fc0813d9b4364b2daf8e"
+  },
+  {
+    "url": "webmidia/screen.js",
+    "revision": "3f0639b1f565d5226209a57f764f9e92"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
